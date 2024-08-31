@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: product
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        group: feign
+        namespace: de6d48b7-1fa4-4eba-8aee-e8ee18aff899
+        server-addr: 192.168.52.130:8848
+server:
+  port: 8881
