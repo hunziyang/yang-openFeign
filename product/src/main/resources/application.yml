@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: product
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        group: test
+        namespace: fb706e3d-4f7a-4f2e-9890-08692c8c08bd
+        server-addr: 192.168.52.129:8848
+server:
+  port: 8881
